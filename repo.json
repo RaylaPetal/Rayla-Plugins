@@ -1,0 +1,96 @@
+[
+  {
+    "Author": "Thiago (RayPetal)",
+    "Name": "WatchAlong",
+    "InternalName": "WatchAlong",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Puts a Kosmi room on a screen inside FFXIV, joining as a real Kosmi guest via a\nsandboxed out-of-process browser, so playback stays perfectly synced with the rest of the room.\n\nCommands:\n/wa - toggle the main viewer/control window\n/wa view - open the main window\n/wa join <kosmi url or WA1: invite> - join a room, or accept an invite (with confirmation)\n/wa settings - open Settings (identity, volume/mute, join/leave, invite, screen placement)\n/wa invite - copy a shareable invite for your current room and screen\n/wa sync <WA1P: message> - apply a shared screen position (with confirmation)\n/wa place - open the screen placement window\n/wa depth - toggle quad vs. depth-tested screen rendering\n/wa vol <0-150> - set volume\n/wa mute - toggle mute\n/wa snapshot - save a debug screenshot + DOM outline",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/RaylaPetal/kosmi-watch-14",
+    "Tags": [
+      "kosmi",
+      "watch-along",
+      "video"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Watch a Kosmi room together, in-game.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/kosmi-watch-14/releases/latest/download/WatchAlong.zip",
+    "DownloadLinkTesting": "https://github.com/RaylaPetal/kosmi-watch-14/releases/latest/download/WatchAlong.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/kosmi-watch-14/releases/latest/download/WatchAlong.zip"
+  },
+  {
+    "Author": "Rayla Petal",
+    "Name": "ReactToMe",
+    "InternalName": "ReactToMe",
+    "Description": "Listens for emotes targeted at you and applies a configured Glamourer design and Moodles status in response, automatically reverting the Glamourer design after a set duration.",
+    "Punchline": "Reacts to emotes performed on you with a temporary Glamourer design and Moodle.",
+    "RepoUrl": "https://github.com/RaylaPetal/ReactToMe",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "emote",
+      "glamourer",
+      "moodles",
+      "automation"
+    ],
+    "DalamudApiLevel": 15,
+    "AssemblyVersion": "0.0.0.1",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/ReactToMe/releases/download/v0.0.0.1/ReactToMe.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/ReactToMe/releases/download/v0.0.0.1/ReactToMe.zip",
+    "LastUpdate": "1788368236"
+  },
+  {
+    "Author": "Rayla Petal",
+    "Name": "PoseKit",
+    "InternalName": "PoseKit",
+    "AssemblyVersion": "0.0.2.14",
+    "Description": "Animation Assistance Plugin, offset your character's pose, save named presets and replay them, auto-discover Penumbra pose mods, and manually resync emote timing with a partner.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Punchline": "Offset, save, and replay poses; auto-discover Penumbra animation mods.",
+    "RepoUrl": "https://github.com/RaylaPetal/PoseKit",
+    "Tags": [
+      "pose",
+      "emote",
+      "offset",
+      "penumbra"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/PoseKit/releases/download/v0.0.2.14/PoseKit-0.0.2.14.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/PoseKit/releases/download/v0.0.2.14/PoseKit-0.0.2.14.zip",
+    "Changelog": "Fix the paired quick-pick panel only offering the exact option a partner already picked for single-select animation dropdowns with per-person poses (e.g. animation 316); it now offers every option in that dropdown so the other person can pick a different pose.",
+    "LastUpdate": "1789047784"
+  },
+  {
+    "Author": "Rayla Petal",
+    "Name": "Oathbound",
+    "InternalName": "Oathbound.Plugin",
+    "AssemblyVersion": "0.0.3.5",
+    "TestingAssemblyVersion": null,
+    "Description": "A consent-based collar control plugin. Gameplay commands use ordinary in-game tells; relay-assisted pairing and encrypted catalog synchronization use the Oathbound Cloudflare service, while gameplay actions remain local to the Sub's client.",
+    "Punchline": "Consent-based Owner/Sub control: outfit, title, gesture, and leash.",
+    "RepoUrl": "https://github.com/raylapetal/xiv-collar",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "roleplay",
+      "collar",
+      "glamourer",
+      "penumbra",
+      "honorific"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.5/latest.zip",
+    "DownloadLinkTesting": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.5/latest.zip",
+    "LastUpdate": "1789134107"
+  }
+]
