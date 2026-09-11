@@ -3,7 +3,7 @@
     "Author": "Rayla Petal",
     "Name": "WatchAlong",
     "InternalName": "WatchAlong",
-    "AssemblyVersion": "0.1.2.0",
+    "AssemblyVersion": "0.1.2.1",
     "Description": "Puts a Kosmi room on a screen inside FFXIV, joining as a real Kosmi guest via a\r\nsandboxed out-of-process browser, so playback stays perfectly synced with the rest of the room.\r\n\r\nCommands:\r\n/wa - toggle the main viewer/control window\r\n/wa view - open the main window\r\n/wa join <kosmi url or WA1: invite> - join a room, or accept an invite (with confirmation)\r\n/wa settings - open Settings (identity, volume/mute, join/leave, invite, screen placement)\r\n/wa invite - copy a shareable invite for your current room and screen\r\n/wa sync <WA1P: message> - apply a shared screen position (with confirmation)\r\n/wa place - open the screen placement window\r\n/wa depth - toggle quad vs. depth-tested screen rendering\r\n/wa vol <0-150> - set volume\r\n/wa mute - toggle mute\r\n/wa snapshot - save a debug screenshot + DOM outline",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/RaylaPetal/kosmi-watch-14",
@@ -72,7 +72,7 @@
     "Author": "Rayla Petal",
     "Name": "Oathbound",
     "InternalName": "Oathbound.Plugin",
-    "AssemblyVersion": "0.0.3.6",
+    "AssemblyVersion": "0.0.3.7",
     "TestingAssemblyVersion": null,
     "Description": "A consent-based collar control plugin. Gameplay commands use ordinary in-game tells; relay-assisted pairing and encrypted catalog synchronization use the Oathbound Cloudflare service, while gameplay actions remain local to the Sub's client.",
     "Punchline": "Consent-based Owner/Sub control: outfit, title, gesture, and leash.",
@@ -88,9 +88,9 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.6/latest.zip",
-    "DownloadLinkTesting": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.6/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.6/latest.zip",
-    "LastUpdate": "1789134954"
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.7/latest.zip",
+    "DownloadLinkTesting": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.7/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/xiv-collar/releases/download/v0.0.3.7/latest.zip",
+    "LastUpdate": "1789143318"
   }
 ]
