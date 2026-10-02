@@ -27,7 +27,7 @@
     "Author": "Rayla Petal",
     "Name": "PoseKit",
     "InternalName": "PoseKit",
-    "AssemblyVersion": "2.2.0.7",
+    "AssemblyVersion": "2.2.0.8",
     "Description": "Animation Assistance Plugin, offset your character's pose, save named presets and replay them, auto-discover Penumbra pose mods, and manually resync emote timing with a partner.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -41,16 +41,16 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/RaylaPetal/PoseKit/releases/download/v2.2.0.7/PoseKit-2.2.0.7.zip",
-    "DownloadLinkUpdate": "https://github.com/RaylaPetal/PoseKit/releases/download/v2.2.0.7/PoseKit-2.2.0.7.zip",
-    "Changelog": "- Dropdowns in the Animations tab now have a \"Disabled\" entry, so you can turn one group back off without rescanning.\n- New Reset button on each mod you've changed through PoseKit: it puts just that mod back to your normal Penumbra settings, leaving your other mods alone.",
-    "LastUpdate": "1790882914"
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/PoseKit/releases/download/v2.2.0.8/PoseKit-2.2.0.8.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/PoseKit/releases/download/v2.2.0.8/PoseKit-2.2.0.8.zip",
+    "Changelog": "- Bone Align no longer guesses which way you should face: the Match facing option is gone, and Align only moves you into position, keeping your facing.\n- New -90 / 180 / +90 turn buttons in Bone Align turn you around your chosen body part, so you can fix your facing in one click.\n- Alignment memory now remembers your facing relative to your partner and exactly where the parts meet, so a remembered animation replays the way you set it, even if you turned yourself by hand.\n- New Remember / Update memory button saves how you're placed right now without moving you, so tweaks you make after Align are kept.",
+    "LastUpdate": "1790978301"
   },
   {
     "Author": "Rayla Petal",
     "Name": "Oathbound",
     "InternalName": "Oathbound.Plugin",
-    "AssemblyVersion": "0.2.0.4",
+    "AssemblyVersion": "0.2.0.5",
     "TestingAssemblyVersion": null,
     "Description": "A consent-based collar control plugin. Gameplay commands use ordinary in-game tells; relay-assisted pairing and encrypted catalog synchronization use the Oathbound Cloudflare service, while gameplay actions remain local to the Sub's client.",
     "Punchline": "Consent-based Owner/Sub control: outfit, title, gesture, and leash.",
@@ -66,9 +66,9 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.0.4/latest.zip",
-    "DownloadLinkTesting": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.0.4/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.0.4/latest.zip",
-    "LastUpdate": "1790964016"
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.0.5/latest.zip",
+    "DownloadLinkTesting": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.0.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.0.5/latest.zip",
+    "LastUpdate": "1790978249"
   }
 ]
