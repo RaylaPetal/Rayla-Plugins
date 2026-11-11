@@ -53,7 +53,7 @@
     "Author": "Rayla Petal",
     "Name": "Oathbound",
     "InternalName": "Oathbound.Plugin",
-    "AssemblyVersion": "0.2.6.4",
+    "AssemblyVersion": "0.2.6.5",
     "TestingAssemblyVersion": null,
     "Description": "A consent-based collar control plugin. Gameplay commands use ordinary in-game tells; relay-assisted pairing and encrypted catalog synchronization use the Oathbound Cloudflare service, while gameplay actions remain local to the Sub's client.",
     "Punchline": "Consent-based Owner/Sub control: outfit, title, gesture, and leash.",
@@ -69,17 +69,17 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.6.4/latest.zip",
-    "DownloadLinkTesting": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.6.4/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.6.4/latest.zip",
-    "LastUpdate": "1794396494",
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.6.5/latest.zip",
+    "DownloadLinkTesting": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.6.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/Oathbound/releases/download/v0.2.6.5/latest.zip",
+    "LastUpdate": "1794401009",
     "TestingDalamudApiLevel": null
   },
   {
     "Author": "Rayla Petal",
     "Name": "Cummy",
     "InternalName": "Cummy",
-    "AssemblyVersion": "2.6.0.0",
+    "AssemblyVersion": "2.7.0.0",
     "Description": "Pair with someone over tells, then right-click them to layer cum onto a body part. Layers stack on top of their own current skin (Bibo body), are published through Penumbra so sync plugins show them to everyone, and stay until cleaned or dried off.\nRequires Penumbra. 18+ content.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -93,16 +93,16 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/RaylaPetal/cummy/releases/download/v2.6.0.0/Cummy-2.6.0.0.zip",
-    "DownloadLinkUpdate": "https://github.com/RaylaPetal/cummy/releases/download/v2.6.0.0/Cummy-2.6.0.0.zip",
-    "Changelog": "- New Public mode (Settings, General, Who can layer me): anyone with Cummy nearby can layer or lick you without pairing, and you can layer anyone nearby. Pairing mode, the default, works as before. Your blocks and range still apply.\n- New blacklist: blacklisted players can never layer, lick or invite you until you remove them. Add people in settings by Name@World, or hold Ctrl and click Blacklist in the droplet menu. Blacklisting a partner unpairs them.\n- The right-click Cummy menu is gone. Use the droplet button instead: it shows whenever someone is nearby and lets you pair, layer, lick or blacklist them. Clean yourself from /cummy or with /cummy clean.",
-    "LastUpdate": "1794144577"
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/cummy/releases/download/v2.7.0.0/Cummy-2.7.0.0.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/cummy/releases/download/v2.7.0.0/Cummy-2.7.0.0.zip",
+    "Changelog": "- Other plugins can now build on Cummy: they can read your layers, react when they change, and layer, lick or clean you under your usual rules. They can never change your blocks, mode, blacklist or partners.\n- Plugins built on Cummy can send messages to the same plugin on a paired partner's game, over Cummy's hidden tells. Turn this off in Settings, General, Other plugins.\n- Plugins can show their own overlays on you (mud, paint...) above your layers, with or without Proteus. They're never saved, and you can see and remove each one, or turn them all off, in Settings, General, Other plugins.",
+    "LastUpdate": "1794400060"
   },
   {
     "Author": "Rayla Petal",
     "Name": "Corruption",
     "InternalName": "Corruption",
-    "AssemblyVersion": "0.3.1.1",
+    "AssemblyVersion": "0.3.2.0",
     "Description": "Earn XP and arousal when you and a nearby player with the plugin both play animations from mods you each picked in Penumbra. Level through corruption tiers, climax into Cummy layers, bond with a regular partner, earn and wear titles, spend Sins in the shop, and opt into a full pregnancy system. Everything runs locally.\nRequires Penumbra, SimpleHeels and a sync service such as Lightless. Cummy, Glamourer, Moodles and Intiface Central are optional. 18+ content.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -116,9 +116,9 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/RaylaPetal/corruption/releases/download/v0.3.1.1/Corruption-0.3.1.1.zip",
-    "DownloadLinkUpdate": "https://github.com/RaylaPetal/corruption/releases/download/v0.3.1.1/Corruption-0.3.1.1.zip",
-    "Changelog": "- Climax mode and arousal gain can now be changed any time on the Profile page, without a reset. Difficulty, decay and your personality stay locked.\n- Goals to hold at 100 arousal are only given when you climax by hand, since automatic climax fires at 100.",
-    "LastUpdate": "1794176592"
+    "DownloadLinkInstall": "https://github.com/RaylaPetal/corruption/releases/download/v0.3.2.0/Corruption-0.3.2.0.zip",
+    "DownloadLinkUpdate": "https://github.com/RaylaPetal/corruption/releases/download/v0.3.2.0/Corruption-0.3.2.0.zip",
+    "Changelog": "- Cummy API 5: after you climax with a partner, Lick clean licks off the part your climax most likely landed on, for a little XP and bond time. Being licked or kissed clean by a recent partner raises your arousal.\n- Three climaxes from nearby players in a minute can layer you Full Body.\n- The Marked bonus counts face layers double and a full coat 1.5x, Your story shows what's layered now, and parts you block in Cummy are never aimed at.\n- Lick goals, and the Cleanup Crew, Drenched, Head to Toe and Glazed achievements with their titles.\n- Fixed the Marked bonus dropping to nothing after another plugin reloaded.",
+    "LastUpdate": "1794400052"
   }
 ]
